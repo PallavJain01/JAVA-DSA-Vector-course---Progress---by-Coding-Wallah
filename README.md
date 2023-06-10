@@ -1,4 +1,4 @@
-# JAVA-DSA-Vector-course-Progress-by-Coding-Wallah
+# JAVA DSA Vector course Progress -byCoding Wallah
 
 ### Table of contents
 
