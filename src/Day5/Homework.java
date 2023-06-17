@@ -1,4 +1,4 @@
-package src.Day5;
+package Day5;
 
 public class Homework {
 

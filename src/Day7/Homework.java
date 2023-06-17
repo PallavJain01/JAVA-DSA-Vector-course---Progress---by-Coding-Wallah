@@ -1,4 +1,4 @@
-package src.Day7;
+package Day7;
 
 import java.util.Arrays;
 
@@ -109,22 +109,22 @@ public class Homework {
     return isPalindrome;
   }
 
-}
-
-/*
- * Utility class made to help make the code easier to read/work
- */
-class Utils {
-  public int getDigit(int n, int index) {
-    int digit = 0;
-    for (int i = (int) Math.log10(n); i >= 0; i--) {
-      digit = n % 10;
-      n /= 10;
-      if (i == index) {
-        return digit;
+  /*
+   * Utility class made to help make the code easier to read/work
+   */
+  public static class Utils {
+    public int getDigit(int n, int index) {
+      int digit = 0;
+      for (int i = (int) Math.log10(n); i >= 0; i--) {
+        digit = n % 10;
+        n /= 10;
+        if (i == index) {
+          return digit;
+        }
       }
+      return -1;
     }
-    return -1;
+
   }
 
 }
